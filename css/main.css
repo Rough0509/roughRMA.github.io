@@ -1,0 +1,196 @@
+body {
+    background: #000;
+}
+.container {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background: url('../img/orig.gif') no-repeat center / cover ;
+    flex-wrap: wrap;
+}
+
+header h3 {
+    position: relative;
+    font-family: AR DESTINE, sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+header Ul {
+    display: flex;
+    margin-left: 200px;
+}
+
+header ul li {
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+header ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: azure;
+}
+
+header ul li a:hover {
+    color: blue;
+    border-top: 6px solid #fff;
+    border-bottom: 6px solid red;
+}
+
+.main {
+    width: 100%;
+    height: 650px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.lside {
+    width: 30%;
+    height: 600px;
+    margin-top: 20px;
+    background-color: chocolate;
+    background: url('../img/flame.gif') no-repeat center top / cover;
+}
+
+.lside h2 {
+    text-align: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+
+.lside ul {
+    list-style: none;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 100px;
+    font-family: Arial, sans-serif;
+}
+
+.lside ul li {
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.lside ul li a {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+
+.lside ul li a:hover {
+    color:dodgerblue;
+}
+
+.content {
+    width: 70%;
+    height: 600px;
+    margin-top: 20px;
+    background-color: darkviolet;
+    margin-left: 20px;
+    background: url('../img/1%20(1).JPG') no-repeat center / cover;
+    
+}
+
+.content h1 {
+    text-align: center;
+    margin-top: 50%;
+    color: #00FF08;
+    font-size: 40px;
+}
+
+.content:hover {
+     background: url('../img/1%20(3).JPG') no-repeat center / cover;
+     transition: 1.5s ease;
+     
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background: url('../img/pano.jpg') no-repeat center top /cover;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+
+.copy {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+.social {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 900;
+    margin-right: 20px;
+}
+
+.social i {
+    padding-left: 20px;
+}
+
+
+@media screen and (max-width:950px) {
+    .container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+        display: block;
+}
+    header Ul {
+    display: none;
+}
+    
+    .main {
+    width: 100%;
+    height: 450px;
+    margin-top: 0px;
+    display: block;
+    flex-direction: row;
+}
+    .lside {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+        padding: 0;
+    
+}
+    .content {
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    
+    
+}
+    footer {
+        display: block;
+        height: auto;
+        margin-top: 460px;
+    } 
+}
+
+
